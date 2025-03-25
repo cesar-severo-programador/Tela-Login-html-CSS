@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+    background: #940daf url(/projetoexercicioscss/TelaLogin/img/6036363.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.imagem-principal {
+    border-radius: 10px;
+}
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+.containerlogin {
+    
+    background-color: #fff;
+    width: 350px;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.inputlogin {
+    margin-bottom: 20px;
+}
+
+.inputconf {
+    display: flex;
+    align-items: center;
+    background: #f4f4f4;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.avatar-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.inputconf img {
+    margin-right: 10px;
+}
+
+.input-field {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.input-field::placeholder {
+    color: #aaa;
+}
+
+.salveLogin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.salveLogin input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.finallogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #940daf;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #7c0591;
+}
+
+a {
+    color: #940daf;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .containerlogin {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .input-field {
+        font-size: 16px;
+    }
+}
