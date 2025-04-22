@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #940daf url(/img/6036363.jpg) no-repeat center center fixed;
+    background: #940daf url(../img/6036363.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
     
